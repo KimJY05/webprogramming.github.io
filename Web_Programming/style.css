@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Grandstander:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+	font-family: "Balsamiq Sans", sans-serif;
+	background: #79f0b3;
+	color: #05192c;
+    font-size:20px;
+}
+
+h1, h2, h3, h4 {
+	font-family: "Grandstander", sans-serif;
+}
+
+.container {
+	max-width: 840px;
+	margin: 0 auto;
+}
+
+.container > div {
+	margin: 20px auto;
+}
+
+.intro {
+    text-align: center;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+@media (max-width: 480px) {
+    .about-grid {
+        grid-template-columns: 100%;
+    }
+}
+.i-am, .i-like {
+    text-align: center;
+    text-decoration: none
+}
+
+.about-list {
+    list-style: none;
+    padding: 0;
+}
+
+.projectsnhobby-heading {
+    text-align: center; 
+}
+
+.projectsnhobby-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+@media (max-width: 650px) {
+    .projects-grid {
+        grid-template-columns: 100%;
+    }
+}
+.project-image {
+    justify-self: center;
+    margin: 20px;
+    width: 300px;
+    height:300px;
+    object-fit: cover;
+    border-radius:50%;
+    border:2px solid rgb(6, 50, 20);
+}
+
+.links-and-contact {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+@media (max-width: 650px) {
+    .links-and-contact {
+        grid-template-columns: 100%;
+    }
+}
+.links {
+    justify-self: center;
+}
+
+.links-list {
+    list-style: none;
+    padding: 0;
+}
+
+form input, textarea {
+	padding: 5px;
+	border-radius: 5px;
+	width: 240px;
+}
+
+form {
+	width: 250px;
+	margin: 0 auto;
+}
+
+form input[type="submit"] {
+	width: 250px;
+}
+
+.submit-button-wrapper {
+	margin: 20px 0;
+    background-color: aqua;
+    color: black;
+}
+
+.map{
+    text-align: center;
+}
+
+.profile-picture {
+    width:150px;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px 0 rgba(34, 60, 80, .75);
+    transition: all ease-in-out .2s;
+}
+
+.profile-picture:hover {
+    box-shadow: 0 8px 12px 0 rgba(241,  122, 3, 0.75);
+}
